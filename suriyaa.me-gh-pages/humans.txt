@@ -1,0 +1,34 @@
+/* Humans.txt - We Are People, Not Machines */
+
+====
+
+/* THIS IS THE HUMANS.TXT TO SIGN THIS WEBSITE! */
+
+----
+
+/* TEAM */
+Name: Suriyaa Kudo
+Contact: isc.suriyaa@gmail.com
+Site: http://suriyaa.me
+Twitter: @SuriyaaKudoIsc
+Location: Munich (Germany) & San Fransisco (USA)
+
+----
+
+/* THANKS */
+
+* iSC Host (http://suriyaa.me/)
+* GitHub (https://github.com/iSC-Host/suriyaa.me/)
+
+----
+
+/* SITE */
+
+Link: http://suriyaa.me or http://suriyaa.isc
+
+Create date: 2014/07/27
+Last update: currently
+
+Standards: HTML5, CSS3
+Components: See it on the left navigation of https://github.com/iSC-Host/suriyaa.me/search
+Software: Bunto

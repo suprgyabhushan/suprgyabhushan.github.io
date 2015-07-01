@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link href="http://isc-host.github.io/suriyaa.me/assets/css/language-switcher/polyglot-language-switcher-2.css" rel="stylesheet">
+
+    <style type="text/css">
+        .container {
+            width: 780px;
+            max-width: 100%;
+        }
+
+        .option-list {
+            list-style: none;
+        }
+
+        .option-list > li {
+            margin-bottom: 40px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+
+
+    <ul class="option-list" style="margin-top: 40px;">
+        <li>
+                <div class="polyglot-language-switcher" data-grid-columns="4" data-anim-effect="fade" data-open-mode="hover">
+                    <ul style="display: none">
+                        <li><a href="#" title="Danish" data-lang-id="dk_DK"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Denmark.png" alt="Denmark"> Dansk</a></li>
+                        <li><a href="#" title="German" data-lang-id="de_DE"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Germany.png" alt="Germany"> Deutsch</a></li>
+                        <li><a href="#" title="English (US & UK)"  data-lang-id="en_US" class="pls-selected-locale"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/United States of America.png" alt="United States"> English (US)</a></li>
+                        <li><a href="#" title="Spanish" data-lang-id="es_ES"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Spain.png" alt="Spain"> Español</a></li>
+                        <li><a href="#" title="French (France & Canada)" data-lang-id="fr_FR"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/France.png" alt="France"> Français (France)</a></li>
+                        <li><a href="#" title="Icelandic" data-lang-id="is_IS"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Iceland.png" alt="Iceland"> ‏Íslenska</a></li>
+                        <li><a href="#" title="Italian" data-lang-id="it_IT"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Italy.png" alt="Italy"> Italiano</a></li>
+                        <li><a href="#" title="Dutch" data-lang-id="nl_NL"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Netherlands.png" alt="Netherlands"> Nederlands</a></li>
+                        <li><a href="#" title="Norwegian (bokmal)" data-lang-id="no_NO"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Norway.png" alt="Norway"> Norsk (bokmål)</a></li>
+                        <li><a href="#" title="Norwegian (nynorsk)" data-lang-id="ny_NO"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Norway.png" alt="Norway"> Norsk (nynorsk)</a></li>
+                        <li><a href="#" title="Portuguese (Portugal)" data-lang-id="pt_PT"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Portugal.png" alt="Portugal"> Português (Portugal)</a></li>
+                        <li><a href="#" title="Finnish" data-lang-id="fi_FI"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Finland.png" alt="Finland"> Suomi</a></li>
+                        <li><a href="#" title="Swedish" data-lang-id="se_SE"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Sweden.png" alt="Sweden"> Svenska</a></li>
+                        <li><a href="#" title="Turkish" data-lang-id="tr_TR"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Turkey.png" alt="Turkey"> Türkçe</a></li>
+                        <li><a href="#" title="Russian" data-lang-id="ru_RU"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Russian Federation.png" alt="Russia"> Русский</a></li>
+                        <li><a href="#" title="Singhalese (Sri Lanka & Maldives)" data-lang-id="lk_SI"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Sri Lanka.png" alt="Sri Lanka"> සිංහලයන්</a></li>
+                        <li><a href="#" title="Korean" data-lang-id="kr_KR"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/South Korea.png" alt="South Korea"> 한국어</a></li>
+                        <li><a href="#" title="Traditional Chinese (Taiwan)" data-lang-id="cn_TW"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Taiwan.png" alt="Taiwan"> 中文(台灣)</a></li>
+                        <li><a href="#" title="Simplified Chinese (China)" data-lang-id="cn_CN"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/China.png" alt="China"> 中文(简体)</a></li>
+                        <li><a href="#" title="Japanese" data-lang-id="jp_JP"><img src="//isc-host.github.io/flags.isc/app/assets/flags/16/Japan.png" alt="Japan"> 日本語</a></li>
+                    </ul>
+                </div>
+
+        </li>        
+    </ul>
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://isc-host.github.io/suriyaa.me/assets/js/language-switcher/jquery-polyglot.language.switcher.js" type="text/javascript"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.polyglot-language-switcher').polyglotLanguageSwitcher()
+                .on('popupOpening', function(evt){
+                    console.log(evt);
+                }).on('popupOpened', function(evt){
+                    console.log(evt);
+                }).on('popupClosing', function(evt){
+                    console.log(evt);
+                }).on('popupClosed', function(evt){
+                    console.log(evt);
+                });
+    });
+</script>
+</body>
+</html>

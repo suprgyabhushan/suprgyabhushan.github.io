@@ -1,0 +1,20 @@
+# Rewrite function
+RewriteEngine On
+
+# Set up mainpage
+DirectoryIndex index.html index.php index.isc index.cgi index.aps
+
+# Set up language
+AddLanguage en .html .php .isc .cgi .aps
+AddLanguage de .html .php .isc .cgi .aps
+
+# Set up cache for robots + browser
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires 0
+</IfModule>
+
+# Set up bouncer for robots
+RewriteCond %{HTTP_USER_AGENT} (bingbot|Baiduspider) [NC]
+RewriteRule .* - [R=403,L]
