@@ -26236,7 +26236,7 @@ var Main = React.createClass({displayName: "Main",
   },
 
   _handleTouchTap: function() {
-    window.location.href = "http://bit.ly/Suriyaa";
+    window.location.href = "http://suprgyabhushan.github.io";
   }
   
 });
