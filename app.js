@@ -26224,12 +26224,12 @@ var Main = React.createClass({displayName: "Main",
     return (
       React.createElement("div", {className: "example-page"}, 
 
-        React.createElement("h1", null, "Suriyaa Kudo"), 
+        React.createElement("h1", null, "Suprgya Bhushan"), 
         React.createElement("h2", null, ""), 
         React.createElement("h2", null, ""), 
         React.createElement("h2", null, ""), 
 
-        React.createElement(RaisedButton, {label: "Visit Suriyaa's official website", primary: true, onTouchTap: this._handleTouchTap})
+        React.createElement(RaisedButton, {label: "Visit Suprgya's official website", primary: true, onTouchTap: this._handleTouchTap})
 
       )
     );
