@@ -26236,7 +26236,7 @@ var Main = React.createClass({displayName: "Main",
   },
 
   _handleTouchTap: function() {
-    window.location.href = "http://suprgyabhushan.github.io";
+    window.location.href = "https://github.com/suprgyabhushan/suprgyabhushan.github.io/home.html";
   }
   
 });
