@@ -1,0 +1,31 @@
+/* Humans.txt - We Are People, Not Machines */
+
+====
+
+/* THIS IS THE HUMANS.TXT TO SIGN THIS WEBSITE! */
+
+----
+
+/* TEAM */
+Name: Suprgya Bhushan
+Contact: Suprgya.56@iiitb.org
+Site: http://suprgyabhushan.github.io/home.html
+Twitter: @suprgya
+Location: Bangalore (India)
+
+----
+
+/* THANKS */
+
+* Github
+----
+
+/* SITE */
+
+Link: http://suprgyabhushan.github.io
+Create date: 2014/07/1
+Last update: currently
+
+Standards: HTML5, CSS3
+
+Software: Bunto

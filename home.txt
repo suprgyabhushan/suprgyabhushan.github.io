@@ -15,7 +15,7 @@
 
             <link rel="home" href="https://suprgyabhushan.github.io/home.html">
             <link rel="index" href="https://suprgyabhushan.github.io">
-            <link rel="canonical" href="https://isc-host.github.io/suriyaa.me">
+            <link rel="canonical" href="https://suprgyabhushan.github.io/home.html">
 
     <!-- KEYWORDS -->
             <meta name="keywords" lang="en" content="suriyaa kudo, suriyaa, official">
