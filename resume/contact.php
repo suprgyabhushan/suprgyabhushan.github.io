@@ -3,8 +3,8 @@ $field_name = $_POST['name'];
 $field_email = $_POST['email'];
 $field_message = $_POST['message'];
 
-$mail_to = 'isc.suriyaa@gmail.com';
-$subject = 'Message from a site visitor of suriyaa.me! '.$field_name;
+$mail_to = 'suprgya@gmail.com';
+$subject = 'Message from a site visitor of suprgya! '.$field_name;
 
 $body_message = 'From: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
@@ -24,7 +24,7 @@ if ($mail_status) { ?>
 }
 else { ?>
 	<script language="javascript" type="text/javascript">
-		alert('Ops. Message failed. Please, send an email to isc.suriyaa@gmail.com.');
+		alert('Ops. Message failed. Please, send an email to suprgya@gmail.com.');
 		window.location = 'index.html';
 	</script>
 <?php
