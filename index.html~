@@ -13,7 +13,7 @@
             <meta name="description" content="The official website of Suprgya Bhushan.">
             <meta name="language" content="en_India">
 
-            <link rel="home" href="https://suprgyabhushan.github.io">
+            <link rel="home" href="https://suprgyabhushan.github.io/home.html">
             <link rel="index" href="https://suprgyabhushan.github.io">
             <link rel="canonical" href="https://isc-host.github.io/suriyaa.me">
 
@@ -127,9 +127,9 @@
 
         <nav>
             <ul>
-                <li><a class="ajax-call" href="http://suprgyabhushan.github.io" id='index'>Home</a></li>
-                <li><a class="ajax-call" href="http://suprgyabhushan.github.io" id='resume'>Resume</a></li>
-                <li><a class="ajax-call" href="http://suprgyabhushan.github.io" id='about'>About</a></li>
+                <li><a class="ajax-call" href="http://suprgyabhushan.github.io/home.html" id='index'>Home</a></li>
+                <li><a class="ajax-call" href="http://suprgyabhushan.github.io/home.html" id='resume'>Resume</a></li>
+                <li><a class="ajax-call" href="http://suprgyabhushan.github.io/home.html" id='about'>About</a></li>
                 <li><a class="ajax-call" href="http://suprgyabhushan.github.io/contact.html" id='contact'>Contact</a></li>
                 <div id="loadingbar-frame"></div>
             </ul>
